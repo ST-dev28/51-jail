@@ -1,6 +1,6 @@
 # Kliento mintys
 
-- norim galeti ikurtam kaleimui `new Jail()` suteikti pavadinima ir ji veliau keisti;
+- norim galeti ikurtam kalejimui `new Jail()` suteikti pavadinima ir ji veliau keisti;
 
 - ikurus kaleima, turi buti nurodomas jo dydis pagal kamerose laikymu kaliniu kieki, pvz, reikalingas metodas, muriame nurodysime kameros dydi ir kiek tokiu kameru yra;
 
@@ -14,7 +14,7 @@
 
 ```
 ============================================================
-"XXX" kaleimas
+"XXX" kalejimas
 ============================================================
 Vietu: 1; viso: 10; uzimtos pilnai: 3; uzimtos ne pilnai: 0;
 Vietu: 3; viso: 10; uzimtos pilnai: 2; uzimtos ne pilnai: 1;
@@ -28,7 +28,7 @@ Viso vietu: 200; kaliniu: 70;
 
 ```
 ============================================================
-"XXX" kaleimas
+"XXX" kalejimas
 ============================================================
 #1 Vietu: 1; uzimtumas: 1;
 #2 Vietu: 1; uzimtumas: 0;
