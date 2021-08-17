@@ -15,7 +15,18 @@ class Jail {
         this.jailCellList.push({ beds, cellQty });
         //console.log(this.jailCellList);
     }
+    capacity() {
+        let bedsTotal = 0;
+        for (const { beds, cellQty } of this.jailCellList) {
+            const bedsQty = beds * cellQty;
+            bedsTotal += bedsQty
+            //console.log(bedsTotal);
+        }
+        this.bedsTotal = bedsTotal;
+        console.log(`Kalejimas "${this.jail}" is viso turi ${this.bedsTotal} vietu.`);
+    }
     addPrisoners(prisonersQty) {
+
     }
 }
 

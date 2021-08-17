@@ -4,7 +4,7 @@
 
 - ikurus kaleima, turi buti nurodomas jo dydis pagal kamerose laikymu kaliniu kieki, pvz, reikalingas metodas, muriame nurodysime kameros dydi ir kiek tokiu kameru yra;
 
-- atvezus kalinius, jie visu pirma yra sutalpinami i didziausia apimti turimas kameras;
+- atvezus kalinius, jie visu pirma yra sutalpinami i didziausia apimti turincias kameras;
 
 - reikia galimybes isleisti kalinius i laisve;
 

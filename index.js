@@ -15,4 +15,8 @@ kalejimas.addCell(3, 10);
 kalejimas.addCell(8, 20);
 //console.log(kalejimas);
 
+kalejimas.capacity();
+// Kalejimas "Zona" is viso turi 200 vietu.
+
 kalejimas.addPrisoners(15);
+kalejimas.addPrisoners(10);
