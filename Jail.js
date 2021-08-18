@@ -2,6 +2,7 @@ class Jail {
     constructor(jailName) {
         this.jail = jailName;
         this.jailCellList = [];
+        this.prisonersCount = 0;
     }
 
     intro() {
@@ -12,7 +13,7 @@ class Jail {
         console.log(`Kalejimas pakeite varda i "${this.jail}".`);
     }
     addCell(beds, cellQty) {
-        this.jailCellList.push({ beds, cellQty });
+        this.jailCellList.push({ beds, cellQty, prisoners: 0 });
         //console.log(this.jailCellList);
     }
     capacity() {
@@ -26,7 +27,14 @@ class Jail {
         console.log(`Kalejimas "${this.jail}" is viso turi ${this.bedsTotal} vietu.`);
     }
     addPrisoners(prisonersQty) {
+        this.prisonersCount += prisonersQty;
+        let bedsFree = 0;
+        if (prisonersQty < this.bedsTotal) {
+            bedsFree = this.bedsTotal - this.prisonersCount;
 
+        }
+        this.bedsFree = bedsFree;
+        console.log(`Kalejimas "${this.jail}" turi ${this.bedsFree} laivu vietu.`);
     }
 }
 

@@ -19,4 +19,6 @@ kalejimas.capacity();
 // Kalejimas "Zona" is viso turi 200 vietu.
 
 kalejimas.addPrisoners(15);
+// Kalejimas "Zona" turi 185 laisvas vietas.
 kalejimas.addPrisoners(10);
+// Kalejimas "Zona" turi 175 laisvas vietas.
