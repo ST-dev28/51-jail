@@ -3,6 +3,7 @@ class Jail {
         this.jail = jailName;
         this.jailCellList = [];
         this.prisonersCount = 0;
+        this.occupiedBedsCount = 0;
     }
 
     intro() {
@@ -13,8 +14,8 @@ class Jail {
         console.log(`Kalejimas pakeite varda i "${this.jail}".`);
     }
     addCell(beds, cellQty) {
-        this.jailCellList.push({ beds, cellQty, prisoners: 0 });
-        //console.log(this.jailCellList);
+        this.jailCellList.push({ beds, cellQty, occuppied: false });
+        console.log(`Kalejimas "${this.jail}" turi: ${cellQty}vnt  ${beds} -vieciu kameru.`);
     }
     capacity() {
         let bedsTotal = 0;
@@ -34,7 +35,10 @@ class Jail {
 
         }
         this.bedsFree = bedsFree;
-        console.log(`Kalejimas "${this.jail}" turi ${this.bedsFree} laivu vietu.`);
+        console.log(`Kalejimas "${this.jail}" turi ${this.bedsFree} vnt laisvu vietu.`);
+    }
+    cellOccupation() {
+        //console.log(this.jailCellList);
     }
 }
 
